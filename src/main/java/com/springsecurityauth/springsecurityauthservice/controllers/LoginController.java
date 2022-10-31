@@ -11,4 +11,14 @@ public class LoginController {
         return "<h1>Greetings !!</h1>";
     }
 
+    @GetMapping("/user")
+    public String helloUser() {
+        return "<h1>Welcome User !!</h1>";
+    }
+
+    @GetMapping("/admin")
+    public String helloAdmin() {
+        return "<h1>Welcome Admin !!</h1>";
+    }
+
 }
